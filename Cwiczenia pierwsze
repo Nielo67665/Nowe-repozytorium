@@ -3,7 +3,7 @@ int main()
 {
     int liczba;
     printf("Podaj liczbe calkowita >0: ");
-    scanf("%i",&liczba)
+    scanf("%i",&liczba);
     if (liczba>0)
     {
         printf("Liczba jest OK\n");
