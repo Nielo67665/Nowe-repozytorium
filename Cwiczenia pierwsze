@@ -9,7 +9,7 @@ int main()
     scanf("%i",&liczba2);
     print("podaj wynik: %i + %i = ",liczba1,liczba2);
     scanf("%i",&suma);
-    if (liczba1+liczba2==suma)
+    if (liczba1+liczba2==suma);
     {
         printf("dobrze\n");
     }
