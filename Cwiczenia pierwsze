@@ -1,2 +1,22 @@
 
 Witam
+int main()
+{
+    int liczba1,liczba2,suma;
+    printf("Podaj pierwsza liczba calkowita: ");
+    scanf("%i",&liczba1);
+    printf("Podaj druga liczbe calkowita: ");
+    scanf("%i",&liczba2);
+    print("podaj wynik: %i + %i = ",liczba1,liczba2);
+    scanf("%i",&suma);
+    if (liczba1+liczba2==suma)
+    {
+        printf("dobrze\n");
+    }
+    else
+    {
+        printf("zle\n");
+    }
+    getchar();
+    return 0;
+}
