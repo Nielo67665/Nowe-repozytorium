@@ -1,5 +1,4 @@
 
-Witam
 int main()
 {
     int liczba1,liczba2,suma;
